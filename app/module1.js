@@ -42,14 +42,12 @@ Array.prototype.search = function(n) {
               minIndex = midIndex + 1;
           }
           midIndex = Math.floor((maxIndex + minIndex)/2);
-          count++
-
       }
       if (this[midIndex] == n){
         return {'count':count,'index': midIndex,'length':len};
       }
       else{
-        return {'count':count,'index': -1,'length': len};
+        return {'count':count++,'index': -1,'length': len};
       }
 }
 

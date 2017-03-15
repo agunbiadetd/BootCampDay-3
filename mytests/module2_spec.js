@@ -1,3 +1,5 @@
+'use strict'
+var findMissing = require('../app/module2.js').findMissing;
 describe("Find missing number two lists: ", function() {
 
   describe("Case for en empty list", function() {

@@ -1,15 +1,16 @@
-function findingMissing (arri, arr2){
+
+function findMissing (arr1, arr2){
 	var a = [];
 	diff = [];
-if(arri.length == arr2.length) (
-	return o;
-	) else{
-	for(var i = 0; i < arri.length; i++) {
-		a[arr[i]] = true;
+if(arr1.length == arr2.length) {
+	return 0;
+	}else{
+	for(var i = 0; i < arr1.length; i++) {
+		a[arr1[i]] = true;
 	}
 	for(i = 0; i < arr2.length; i++) {
 		if (a[arr2[i]]) {
-			delete a[arr[i]];
+			delete a[arr2[i]];
 		} else {
 			a[arr2[i]] = true;
 		}
