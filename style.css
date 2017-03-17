@@ -1,0 +1,78 @@
+body.login { 
+    background: #FFFFFF;
+    padding: 0;
+    margin: 0;
+    height: 1500px; 
+}
+
+#main_container{ 
+    height: relative;
+    position: 640;
+    display: block; 
+}
+
+#header{
+    background: #3A5795; 
+    width: 100px; 
+    position: relative; 
+    height: 82px;
+    box-shadow: 2px 2px 2px 2px; 
+    box-shadow: 0px 1px 8px 2px; 
+}
+
+#fb_logo{
+    color: white; 
+    font-size: 40px; 
+    line-height: 20px;
+    font-family: comic sans MS;
+    letter-spacing: 1px; 
+    
+    position:relative;
+    font-weight: bold; 
+    left: 200px;
+    top: 30px;
+}
+
+.login_form { 
+    float: right;
+    color:white;
+    position: relative;
+    right:200px;
+    top:-10px;
+     
+}
+
+#body_section{
+    width:1200px;  
+    height:auto;
+    margin:auto;
+    position:relative;
+}
+
+#img{
+    z-index: 4px;
+    top:relative;
+    position:40px;
+    left:80px;
+}
+
+#right{
+    z-index: 6px;
+    float:right;
+    top:-300px;
+    position: relative;
+    left:100px;
+}
+
+
+#form input{
+    color: black;
+    border:1px solid #BDC7D8;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#form select{
+    height:30;
+    display: inline;
+}
