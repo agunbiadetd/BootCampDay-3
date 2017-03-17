@@ -1,5 +1,5 @@
 'use strict'
-var toTwenty = require('../app/module1.js').toTwenty;
+var toTwenty = require('../app/binarySerach.js').toTwenty;
 var toForty = require('../app/module1.js').toForty;
 var toOneThousand = require('../app/module1.js').toOneThousand;
 describe('Binary Search to traverse an ordered list, effectively', function() {
